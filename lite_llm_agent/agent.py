@@ -7,7 +7,7 @@ from openai import api_key
 
 model = LiteLlm(
     model="gemini-2.0-flash",
-    api_key=os.getenv("GOOGLE_API_KEY")
+    #api_key=os.getenv("GOOGLE_API_KEY")
 )
 
 def get_jocks():
@@ -22,7 +22,7 @@ def get_jocks():
 
 
 root_agent = Agent(
-    name="lite-llm-agent",
+    name="lite_llm_agent",
     model=model,
     description="joke agent",
     instruction="""
