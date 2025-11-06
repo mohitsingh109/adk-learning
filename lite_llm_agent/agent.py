@@ -5,6 +5,7 @@ from google.adk import Agent
 from google.adk.models.lite_llm import LiteLlm
 from openai import api_key
 
+# GCP (service-account json)
 model = LiteLlm(
     model="gemini-2.0-flash",
     #api_key=os.getenv("GOOGLE_API_KEY")
