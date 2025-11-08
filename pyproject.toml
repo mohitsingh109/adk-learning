@@ -10,4 +10,5 @@ dependencies = [
     "litellm>=1.79.1",
     "psutils>=3.3.14",
     "python-dotenv>=1.2.1",
+    "yfinance>=0.2.66",
 ]
