@@ -3,6 +3,7 @@ from datetime import datetime
 
 
 def purchase_course(tool_context: ToolContext) -> dict:
+    print(f"Executing purchase_course tool: {tool_context}")
     course_id = "ai_marketing_platform"
     current_time = datetime.now().strftime("%Y-%n-%d %H:%M:%S")
 

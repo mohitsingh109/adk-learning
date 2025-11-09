@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from tools import purchase_course
+from .tools import purchase_course
 
 sales_agent = Agent(
     name="sales_agent",

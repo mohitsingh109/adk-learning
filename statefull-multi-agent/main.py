@@ -8,7 +8,9 @@ from customer_service_agent.agent import customer_service_agent
 from utils import call_agent_async
 from google.adk import Runner
 from google.adk.sessions import InMemorySessionService
+from dotenv import load_dotenv
 
+load_dotenv()
 session_service = InMemorySessionService()
 
 initial_state = {
