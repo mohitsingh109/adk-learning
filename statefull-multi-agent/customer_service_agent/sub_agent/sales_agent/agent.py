@@ -1,6 +1,9 @@
 from google.adk.agents import Agent
 from .tools import purchase_course
 
+
+
+
 sales_agent = Agent(
     name="sales_agent",
     model="gemini-2.0-flash",
@@ -37,3 +40,4 @@ Here is a robust instruction set for your `sales_agent`, ensuring it uses the co
     """,
     tools=[purchase_course]
 )
+
