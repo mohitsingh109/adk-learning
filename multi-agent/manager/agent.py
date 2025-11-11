@@ -15,7 +15,7 @@ root_agent = Agent(
 
         **Delegation Strategy:**
         1.  **Analyze** the user's request to determine its core intent (e.g., humor, stock price, time check, information search).
-        2.  **Delegate** the task to the appropriate specialized agent or tool listed in `sub_agents` or `tools` if the request matches their expertise.
+        2.  **Delegate** the task to the appropriate specialized agent or tool listed in `sub_agent` or `tools` if the request matches their expertise.
 
         **Specific Delegation Rules:**
             * **News & Factual Information:** If the user asks for **current events, news analysis, or requires up-to-date factual information**, delegate the task to the **`news_analyst`** agent (via AgentTool).
